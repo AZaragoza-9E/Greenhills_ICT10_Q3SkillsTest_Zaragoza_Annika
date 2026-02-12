@@ -1,0 +1,35 @@
+* {
+	color:black;
+	font-family: "Georgia", sans-serif;
+}
+
+h1 {
+    color: black;
+}
+
+body {
+	align-items: center;
+	text-align: center;
+	background: url(https://i.pinimg.com/736x/e4/c9/78/e4c97893ee7e499763c48e5e79a16752.jpg);
+    background-size: cover;
+}
+
+.container {
+    max-width: 420px;
+    margin: 50px auto;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(50px);
+}
+
+.btn {
+    color:black;
+}
+
+button {
+    color:black;
+}
