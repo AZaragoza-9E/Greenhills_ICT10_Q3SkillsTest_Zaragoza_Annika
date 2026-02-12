@@ -6,7 +6,7 @@ def signup(e):
     username = document.getElementById('usernameen').value
     password = document.getElementById('passworden').value
 
-    if len(username)>=8:
+    if len(username)<=8:
         display(f'Your username must have at least 8 characters.', target="passwordnotice")
 
     if password.isalpha():
@@ -20,6 +20,7 @@ def signup(e):
 
     else:
         display(f'Account has been created. You may enter.', target='passwordnotice')
+
 
 
 
